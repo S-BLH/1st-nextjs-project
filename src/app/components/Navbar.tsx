@@ -1,17 +1,26 @@
+// src/app/components/Navbar.tsx
 import Link from 'next/link';
-import styles from './Navbar.module.css';
 
 export default function Navbar() {
   return (
-    <nav className="bg-gray-800 text-white p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold">Your Logo</Link>
-        <ul className="flex space-x-4">
-          <li><Link href="/" className="hover:text-gray-300">Home</Link></li>
-          <li><Link href="/about" className="hover:text-gray-300">About</Link></li>
-          <li><Link href="/contact" className="hover:text-gray-300">Contact</Link></li>
-        </ul>
-      </div>
+    <nav className="bg-indigo-900 text-white p-4">
+      <ul className="flex justify-around list-none m-0 p-0">
+        <li>
+          <Link href="/" className="text-white hover:text-gray-300 transition-colors duration-300">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link href="/about" className="text-white hover:text-gray-300 transition-colors duration-300">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link href="/contact" className="text-white hover:text-gray-300 transition-colors duration-300">
+            Contact
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
 }

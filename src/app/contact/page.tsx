@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="grid md:grid-cols-2 gap-12">
         <div className="bg-white p-6 rounded-lg shadow-md">
           <h2 className="text-2xl font-semibold mb-4 text-indigo-800">Get in Touch</h2>
-          <p className="mb-6 text-gray-700">We'd love to hear from you. Reach out to us using the information below:</p>
+          <p className="mb-6 text-gray-700">We&apos;d love to hear from you. Reach out to us using the information below:</p>
           
           <ul className="space-y-4 mb-6">
             <li className="flex items-center text-gray-700">
@@ -23,12 +23,12 @@ export default function Contact() {
             </li>
             <li className="flex items-center text-gray-700">
               <FaMapMarkerAlt className="mr-3 text-indigo-600" />
-              <span>3rd District, Kabul,Afghanistan</span>
+              <span>3rd District, Kabul, Afghanistan</span>
             </li>
           </ul>
           
           <p className="text-gray-700">
-            We're available Saturday to Thursday, 9am to 5pm.
+            We&apos;re available Saturday to Thursday, 9am to 5pm.
           </p>
         </div>
         

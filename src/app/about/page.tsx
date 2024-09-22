@@ -11,7 +11,7 @@ export default function About() {
         <div>
           <h2 className="text-2xl font-semibold mb-4 text-indigo-800">Our Mission</h2>
           <p className="text-gray-700 mb-4">
-            We are a passionate team dedicated to creating amazing web experiences. Our mission is to deliver high-quality, innovative solutions to our clients, pushing the boundaries of what's possible on the web.
+            We are a passionate team dedicated to creating amazing web experiences. Our mission is to deliver high-quality, innovative solutions to our clients, pushing the boundaries of what&apos;s possible on the web.
           </p>
           <p className="text-gray-700">
             Founded in 2024, our company has grown from a small startup to a leader in web development. We specialize in creating responsive, user-friendly websites and applications using cutting-edge technologies like Next.js and React.
